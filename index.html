@@ -20,6 +20,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito:wght@700;800&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
 
+  <!-- Favicon -->
+  <link rel="icon" href="/images/logo.jpg" type="image/jpeg" />
+
   <!-- Styles -->
   <link rel="stylesheet" href="/src/styles/main.css" />
 
@@ -98,27 +101,28 @@
     <!-- HERO -->
     <section class="hero" aria-label="Hero">
       <div class="hero__bg">
-        <img
-          src="/images/outside.jpg"
-          alt="Kayan Coffee shopfront on College Parade, Queen's Park"
-          fetchpriority="high"
-        />
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+          aria-hidden="true"
+        >
+          <source src="/videos/reel.mp4" type="video/mp4" />
+        </video>
       </div>
 
       <div class="hero__content">
         <img
           src="/images/logo.jpg"
-          alt=""
+          alt="Kayan speciality coffee"
           class="hero__logo-img page-enter"
-          aria-hidden="true"
         />
-        <div class="hero__wordmark page-enter page-enter--delay-1">kayan</div>
-        <div class="hero__sub page-enter page-enter--delay-2">speciality coffee</div>
-        <h1 class="hero__tagline page-enter page-enter--delay-3">
+        <h1 class="hero__tagline page-enter page-enter--delay-1">
           Your neighbourhood coffee shop<br />in Queen's Park
         </h1>
-        <p class="hero__hours-note page-enter page-enter--delay-4">Open seven days a week · College Parade, NW6</p>
-        <div class="hero__cta page-enter page-enter--delay-5">
+        <p class="hero__hours-note page-enter page-enter--delay-2">Open seven days a week · 17 College Parade, NW6</p>
+        <div class="hero__cta page-enter page-enter--delay-3">
           <a href="menu.html" class="btn btn--primary btn--large">View Our Menu</a>
           <a href="find-us.html" class="btn btn--outline btn--large">Find Us</a>
         </div>
@@ -220,8 +224,8 @@
         <div class="instagram__inner">
           <div class="instagram__image-wrap fade-up">
             <img
-              src="/images/post1.jpg"
-              alt="Kayan Coffee Instagram post — moka pot illustration"
+              src="/images/coffee_and_croissant.jpg"
+              alt="Kayan Coffee — a latte with latte art next to a golden croissant"
               class="instagram__img"
               loading="lazy"
             />
@@ -239,8 +243,7 @@
               href="https://www.instagram.com/kayancoffeelondon"
               target="_blank"
               rel="noopener noreferrer"
-              class="instagram__link btn btn--primary fade-up fade-up--delay-3"
-              aria-label="Follow Kayan Coffee on Instagram"
+              class="btn btn--primary fade-up fade-up--delay-3"
             >
               Follow us on Instagram
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">

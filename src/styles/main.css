@@ -554,7 +554,8 @@ p {
   z-index: 0;
 }
 
-.hero__bg img {
+.hero__bg img,
+.hero__bg video {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -585,11 +586,12 @@ p {
 }
 
 .hero__logo-img {
-  height: 64px;
-  width: auto;
+  width: clamp(220px, 45vw, 340px);
+  height: auto;
   margin: 0 auto var(--space-md);
   object-fit: contain;
-  filter: drop-shadow(0 2px 8px rgba(107, 66, 38, 0.15));
+  border-radius: var(--radius-md);
+  filter: drop-shadow(0 4px 16px rgba(107, 66, 38, 0.18));
 }
 
 .hero__wordmark {
@@ -863,8 +865,8 @@ p {
    -------------------------------------------------------------------------- */
 .menu-hero {
   position: relative;
-  height: 52vh;
-  min-height: 360px;
+  height: 75vh;
+  min-height: 480px;
   display: flex;
   align-items: flex-end;
   overflow: hidden;
