@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Kayan Coffee, Queen's Park London</title>
+  <meta name="description" content="We're Kayan Coffee — an independent speciality coffee shop in Queen's Park, London. Learn about our story, our sourcing, and what drives us." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="About Kayan Coffee" />
+  <meta property="og:description" content="An independent speciality coffee shop on College Parade, Queen's Park. Our story." />
+  <meta property="og:image" content="/images/outside.jpg" />
+  <meta property="og:url" content="https://kayancoffee.co.uk/about.html" />
+
+  <link rel="canonical" href="https://kayancoffee.co.uk/about.html" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito:wght@700;800&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/src/styles/main.css" />
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Kayan Coffee",
+    "description": "Independent speciality coffee shop in Queen's Park, London",
+    "url": "https://kayancoffee.co.uk",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "17 College Parade",
+      "addressLocality": "London",
+      "postalCode": "NW6 6RN",
+      "addressCountry": "GB"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="nav" role="banner">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="Kayan Coffee — Home">
+        <img src="/images/logo.jpg" alt="Kayan Coffee" class="nav__logo-img" />
+      </a>
+      <nav class="nav__links" aria-label="Main navigation">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="menu.html" class="nav__link">Menu</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="find-us.html" class="nav__link nav__link--pill">Find Us</a>
+      </nav>
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE OVERLAY -->
+  <div class="nav__overlay" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+    <a href="index.html" class="nav__overlay-link">Home</a>
+    <a href="menu.html" class="nav__overlay-link">Menu</a>
+    <a href="about.html" class="nav__overlay-link">About</a>
+    <a href="find-us.html" class="nav__overlay-link nav__overlay-link--pill">Find Us</a>
+  </div>
+
+  <main id="main">
+
+    <!-- ABOUT HERO -->
+    <section class="about-hero" aria-label="About Kayan Coffee">
+      <div class="about-hero__bg">
+        <img
+          src="/images/outside.jpg"
+          alt="Kayan Coffee shopfront"
+          fetchpriority="high"
+        />
+      </div>
+      <div class="about-hero__content">
+        <p class="about-hero__label page-enter">Our Story</p>
+        <h1 class="about-hero__title page-enter page-enter--delay-1">
+          A coffee shop built on care.
+        </h1>
+        <p class="about-hero__intro page-enter page-enter--delay-2">
+          We opened in Queen's Park because we wanted a neighbourhood coffee shop
+          that took its coffee seriously — without taking itself too seriously.
+        </p>
+      </div>
+    </section>
+
+    <!-- STORY -->
+    <section class="section about-story" aria-labelledby="story-heading">
+      <div class="container">
+        <div class="about-story__inner">
+          <div class="about-story__text">
+            <span class="intro__label fade-up">Who we are</span>
+            <h2 class="fade-up fade-up--delay-1" id="story-heading">
+              Speciality coffee,<br />seven days a week.
+            </h2>
+            <div class="intro__divider fade-up fade-up--delay-2"></div>
+            <p class="fade-up fade-up--delay-2">
+              We're a small, independent coffee shop on College Parade, tucked into the
+              heart of Queen's Park. We opened because we believed there was space here
+              for somewhere that served truly good coffee — not as an afterthought, but
+              as the whole point.
+            </p>
+            <p class="fade-up fade-up--delay-3">
+              Every bean we use is carefully sourced from roasters who share our obsession
+              with quality. Our baristas are trained to coax the best out of each coffee —
+              so whether you're ordering an espresso at 7am or a cold brew on a Saturday
+              afternoon, you're getting the same care in the cup.
+            </p>
+            <p class="fade-up fade-up--delay-4">
+              Our pastries come in fresh each morning. The croissants are all-butter,
+              the brownies are dense, and the sticky buns are worth making a trip for.
+              We think great coffee deserves great food alongside it.
+            </p>
+            <p class="fade-up fade-up--delay-5">
+              Mostly, we just want Kayan to be the kind of place where you feel
+              at home — whether you're in for five minutes or an hour. Pull up a chair.
+            </p>
+          </div>
+          <div class="fade-up fade-up--delay-2" style="padding-top: var(--space-xl);">
+            <img
+              src="/images/inside.jpg"
+              alt="Inside Kayan Coffee — the display counter with croissants and flowers"
+              loading="lazy"
+              style="border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); width: 100%; object-fit: cover; aspect-ratio: 3/4;"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VALUES -->
+    <section class="section about-values" aria-labelledby="values-heading">
+      <div class="container">
+        <div class="section-intro fade-up">
+          <span class="label">What we care about</span>
+          <h2 id="values-heading">The things that matter to us.</h2>
+        </div>
+        <div class="about-values__grid">
+          <article class="about-value fade-up fade-up--delay-1">
+            <span class="about-value__icon" aria-hidden="true">☕</span>
+            <h4>Sourcing</h4>
+            <p>We work with roasters who can trace their beans back to the farm. Origin matters. Transparency matters.</p>
+          </article>
+          <article class="about-value fade-up fade-up--delay-2">
+            <span class="about-value__icon" aria-hidden="true">🥐</span>
+            <h4>Freshness</h4>
+            <p>Everything on the counter was baked that morning. We don't keep yesterday's pastries — it shows.</p>
+          </article>
+          <article class="about-value fade-up fade-up--delay-3">
+            <span class="about-value__icon" aria-hidden="true">🏘</span>
+            <h4>Community</h4>
+            <p>We're a neighbourhood shop first. We know our regulars, we love new faces, and we're here seven days a week.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- POST1 / ORIGINS CALLOUT -->
+    <section class="section about-post" aria-labelledby="origins-heading">
+      <div class="container">
+        <div class="about-post__inner">
+          <div class="about-post__image-wrap fade-up">
+            <img
+              src="/images/post1.jpg"
+              alt="Our first Instagram post — a moka pot illustration announcing Kayan Coffee"
+              class="about-post__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-post__content">
+            <span class="intro__label fade-up">Where it started</span>
+            <h2 class="fade-up fade-up--delay-1" id="origins-heading">
+              Our very first post.
+            </h2>
+            <p class="fade-up fade-up--delay-2">
+              Before the first cup was poured and before we opened the doors,
+              this was the announcement — a hand-drawn moka pot on Instagram.
+              It felt like the right way to introduce ourselves: modest, warm,
+              a little bit analogue.
+            </p>
+            <p class="fade-up fade-up--delay-3">
+              That spirit hasn't changed. Come find us.
+            </p>
+            <div class="fade-up fade-up--delay-4" style="margin-top: var(--space-lg);">
+              <a
+                href="https://www.instagram.com/kayancoffeelondon"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn--primary"
+              >
+                Follow @kayancoffeelondon
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <img src="/images/logo.jpg" alt="Kayan Coffee" class="footer__logo-img" />
+          <p class="footer__tagline">Speciality Coffee · Queen's Park</p>
+        </div>
+        <div>
+          <p class="footer__heading">Visit Us</p>
+          <address class="footer__address">
+            Kayan Coffee<br />
+            17 College Parade<br />
+            London NW6 6RN
+          </address>
+          <p style="margin-top: var(--space-sm); font-size: var(--text-sm); color: var(--charcoal-soft);">
+            3 min walk from Queen's Park station
+          </p>
+        </div>
+        <div>
+          <p class="footer__heading">Hours</p>
+          <ul class="footer__hours-list" aria-label="Opening hours">
+            <li><span>Mon – Fri</span><span>7 am – 7 pm</span></li>
+            <li><span>Sat – Sun</span><span>9 am – 7 pm</span></li>
+          </ul>
+          <div style="margin-top: var(--space-md);">
+            <a href="https://www.instagram.com/kayancoffeelondon" target="_blank" rel="noopener noreferrer" class="footer__instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <circle cx="12" cy="12" r="3.5"/>
+                <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/>
+              </svg>
+              @kayancoffeelondon
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2026 Kayan Coffee</p>
+        <nav aria-label="Footer navigation">
+          <a href="index.html" style="font-size: var(--text-xs); color: var(--brown-warm); margin-left: var(--space-md);">Home</a>
+          <a href="menu.html" style="font-size: var(--text-xs); color: var(--brown-warm); margin-left: var(--space-md);">Menu</a>
+          <a href="about.html" style="font-size: var(--text-xs); color: var(--brown-warm); margin-left: var(--space-md);">About</a>
+          <a href="find-us.html" style="font-size: var(--text-xs); color: var(--brown-warm); margin-left: var(--space-md);">Find Us</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/scripts/main.js"></script>
+</body>
+</html>
