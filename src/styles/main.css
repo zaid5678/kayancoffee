@@ -1004,7 +1004,6 @@ p {
 
 .menu-item::after {
   content: ' · ';
-  color: var(--brown-border);
   color: rgba(107, 66, 38, 0.35);
   padding: 0 0.2em;
   font-size: 1.1em;
@@ -1012,6 +1011,49 @@ p {
 
 .menu-item:last-child::after {
   display: none;
+}
+
+/* Price-list layout */
+.menu-price-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.menu-price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-md);
+  padding: 0.7em 0;
+  border-bottom: 1px solid var(--brown-border);
+}
+
+.menu-price-row:first-child {
+  border-top: 1px solid var(--brown-border);
+}
+
+.menu-price-name {
+  font-size: var(--text-md);
+  color: var(--charcoal);
+  font-weight: 500;
+}
+
+.menu-price-note {
+  font-size: var(--text-sm);
+  color: var(--brown-warm);
+  font-weight: 400;
+  margin-top: 0.1em;
+  display: block;
+  opacity: 0.85;
+}
+
+.menu-price-amount {
+  font-size: var(--text-md);
+  color: var(--brown-warm);
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 /* Extras grid */
