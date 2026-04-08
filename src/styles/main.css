@@ -177,16 +177,15 @@ p {
   right: 0;
   height: var(--nav-height);
   z-index: 1000;
-  background: transparent;
-  transition: background var(--duration) var(--ease-out),
-              box-shadow var(--duration) var(--ease-out);
+  background: rgba(254, 252, 249, 0.97);
+  box-shadow: 0 1px 0 var(--brown-border);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: box-shadow var(--duration) var(--ease-out);
 }
 
 .nav--scrolled {
-  background: rgba(254, 252, 249, 0.96);
   box-shadow: 0 1px 0 var(--brown-border), var(--shadow-sm);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
 }
 
 .nav__inner {
@@ -527,6 +526,18 @@ p {
   color: var(--cream-light);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
+}
+
+.btn--dark {
+  background: var(--brown-dark);
+  color: var(--cream-light);
+  box-shadow: 0 2px 12px rgba(107, 66, 38, 0.28);
+}
+
+.btn--dark:hover {
+  background: var(--charcoal);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(44, 44, 44, 0.28);
 }
 
 .btn--large {
