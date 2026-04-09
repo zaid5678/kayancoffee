@@ -1009,9 +1009,6 @@ p {
   margin-bottom: 0;
   font-weight: 400;
 }
-  white-space: nowrap;
-  flex-shrink: 0;
-}
 
 /* Extras grid */
 .menu-extras {
